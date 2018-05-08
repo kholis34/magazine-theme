@@ -1,0 +1,113 @@
+/*
+Theme Name: J Magazine
+Author: Kholis
+Description: Bootstrap 4 Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/*=== HEADER ===*/
+.container-fluid.header{padding: 20px 0;}
+/*=== MENU ===*/
+.container-fluid.menu{margin-bottom: 10px;}
+.navbar.navbar-expand-lg.navbar-light.bg-light{border-bottom: solid 2px #007bff;padding: 0;}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active{color:#fff!important;background: #007bff;font-size: 14px;padding: 10px 20px;}
+.navbar-expand-lg .navbar-nav .nav-link{font-size: 14px;padding: 10px 20px;}
+/*=== INDEX ===*/
+.maincontent-index{margin-top: 10px;}
+li.media.content{padding-bottom: 20px;border-bottom: 1px solid #e6e6e6;margin-bottom: 20px;}
+li.media.content p{font-size: 14px;}
+.meta-post{margin-top: 20px;font-size: 11px;font-weight: normal;color: #777;}
+.media-body.content h2 a{font-size: 22px;}
+.media-body.content{padding: 0 10px 10px 20px;}
+.media-body.content.single{padding: 0;}
+.media-body.content p{font-size: 13px;}
+.thumb-single a img{width: 100%;height: auto;}
+/*=== SIDEBAR ===*/
+.col-md.sidebar{}
+.col-md.sidebar ul{padding-left: 0;}
+.col-md.sidebar p{font-size: 13px;}
+.col-md.sidebar ul li{list-style-type: none;}
+.col-md.sidebar ul li a{font-size: 13px;}
+.col-md.sidebar h3{border-bottom: solid 1px #ddd;font-size: 16px;font-weight: bold;}
+img.img-fluid.sidebar.wp-post-image{width: 64px;}
+li.media.sidebar{margin-top: 10px;border-bottom: solid 1px #ddd;padding-bottom: 10px;}
+.media-body.sidebar{padding: 0 10px;}
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {margin:5px 20px 20px 0;}
+.aligncenter, div.aligncenter {display:block;margin:5px auto;}
+.alignright {float:right;margin:5px 0 20px 20px;}
+.alignleft {float:left;margin:5px 20px 20px 0;}
+.aligncenter {display:block;margin:5px auto;}
+a img.alignright {float:right;margin:5px 0 20px 20px;}
+a img.alignnone {margin:5px 20px 20px 0;}
+a img.alignleft {float:left;margin:5px 20px 20px 0;}
+a img.aligncenter {display:block;margin-left:auto;margin-right:auto;}
+.wp-caption {background:#fff;border:1px solid #f0f0f0;max-width:96%;padding:5px 3px 10px;text-align:center;}
+.wp-caption.alignnone {margin:5px 20px 20px 0;}
+.wp-caption.alignleft {margin:5px 20px 20px 0;}
+.wp-caption.alignright {margin:5px 0 20px 20px;}
+.wp-caption img {border:0 none;height:auto;margin:0;max-width:98.5%;padding:0;width:auto;}
+.wp-caption p.wp-caption-text {font-size:11px;line-height:17px;margin:0;padding:0 4px 5px;}
+img.wp-smiley {vertical-align:middle;}
+/*=== MISCS ===*/
+.author-box {
+    background-color: #EEF5FF;
+    padding: 20px;
+    margin: 0 0 40px;
+    display: inline-block;
+    width: 100%;
+    border: solid 1px #ddd;
+}
+ 
+.author-box .author-img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+ 
+.author-box .author-img img {
+    border-radius: 50%;
+}
+ 
+.author-box .author-name {
+    font-weight: bold;
+    clear: none;
+    display: inline;
+}
+.author-box h3{font-size: 16px;}
+.author-box p{font-size: 13px;}
+.mainauthor-box{margin-top: 10px;}
+.tag-meta{font-size: 13px;color: #777;}
+.card-body.related{padding: 10px 0;text-align: center;}
+h3.card-title.related{font-size: 16px;}
+h3.card-title.related a{color: #333;font-size: 13px;font-weight: normal;}
+.card.col-md-3{border:none;}
+#related_posts h3{font-size: 14px;font-weight: bold;}
+#breadcrumbs{list-style:none;margin:10px 0;overflow:hidden;padding: 0;font-size: 11px;text-transform: uppercase;}
+#breadcrumbs li{display:inline-block;vertical-align:middle;margin-right:15px;}  
+#breadcrumbs .separator{font-size:18px;font-weight:100;color:#ccc;}
+/*=== WP Page Navi Styles === */
+.wp-pagenavi {padding: 5px 1px 5px;float:left;width: 98%;background:url(images/pagination_bg.gif) no-repeat center;}   
+.wp-pagenavi a {font-size:12px;padding: 5px 6px 4px 6px; margin: 3px;text-decoration: none;border: 1px solid #ccc;color: #666;background-color: inherit;  }
+.wp-pagenavi a:hover { border: 1px solid #444;color: #444;background-color: #eee;}
+.wp-pagenavi span.pages {padding: 5px 6px 4px 6px; margin: 3px;color: #777;font-weight:normal;font-size:12px;border: 1px solid #999;background-color: inherit;}
+.wp-pagenavi span.current {padding: 5px 6px 4px 6px; margin: 3px;font-weight:normal;font-size:12px;border: 1px solid #666;color: #444;background-color: #eee;}
+.wp-pagenavi span.expand {padding: 5px 6px 4px 6px; margin: 3px;    border: 1px solid #ccc;color: #444;background-color: inherit;  }
+.wp-pagenavi .first, .wp-pagenavi .last { border: 1px solid #aaa;}
+.wp-pagenavi .single_page {border: 1px dashed #ccc;}
+.large-12.columns.discount-shop{margin-bottom: 30px;}
+/*=== WIDGET FOOTER ===*/
+.col-md-4.widget-footer{}
+.col-md-4.widget-footer ul{padding-left: 0;}
+.col-md-4.widget-footer li{list-style-type: none;}
+.col-md-4.widget-footer ul li a{font-size: 13px!important;}
+.col-md-4.widget-footer p{font-size: 13px;}
+.col-md-4.widget-footer ul li h3{margin-top: 30px;border-bottom: solid 1px #ddd;
+padding-bottom: 10px;font-size: 16px;font-weight: bold;}
+.container.widget-footer{border-bottom: solid 1px #ddd;margin-bottom: 30px;}
+/*=== FOOTER ===*/
+.container.footer{text-align: center;}
+.container.footer p{font-size: 13px;}
+.container.footer a{font-size: 13px;}
